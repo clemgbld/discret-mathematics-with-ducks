@@ -1,6 +1,6 @@
 # Counting and proof
 
-## Exercises
+## Introduction exercises
 
 ### 1
 
@@ -182,5 +182,62 @@ We can form  m * k ordered pair.
 Is this related to any of the previous problems?
 
 Yes the problem 10.A for example.
+
+## Preliminaries on Proofs and Disproofs
+
+### 1
+
+Gelly Roll pens come in 6 solid colors of fine point and 11 of medium point, 10
+moonlight colors, 10 shadow colors, 12 stardust colors, and 14 metallic colors.
+(Not kidding.) How many different Gelly Roll pens are there?
+
+Using the sum princple 6 + 11 + 10 + 10 + 12 + 14 = 63
+
+
+### 2
+
+When redeeming a prize coupon, you may choose one of six charms and either one
+of three carabiners or one of two bracelets. How many different prize choices could
+you make?
+
+Using the product pinciple and the sum principle (6 * 3) + (6 * 2)  = 30
+
+### 3
+
+Challenge: Invent your own problem that uses both the sum principle and the prod-
+uct principle.
+
+In a Greek restaurant you can choose between 3 starters and either 2 main course and 3 desserts how many menu choices could you make ?
+
+---------
+
+24= 5 + 19= 7 + 17= 11 + 13.
+8= 3 + 5.
+38= 19 + 19= 7 + 31.
+
+What property do the numbers on the left-hand sides of the equations have
+in common?
+
+They are all even 
+
+What property do the numbers on the right-hand sides of the equations have
+in common?
+
+They are all odd and prime number
+
+Come up with three more examples that fit this pattern.
+
+4 = 1 + 3
+26 = 21 + 5 = 19 + 7 =  13 + 13 
+
+Do you think the pattern always holds?
+
+yes i guess this pattern old true for x >= 2
+
+What is your conjecture? (We will revisit this later.)
+
+My conjecture is that you can always decompose an even number >= 2 with 2 prime numbers numbers
+
+
 
 
