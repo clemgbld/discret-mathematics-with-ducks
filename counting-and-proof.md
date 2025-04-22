@@ -228,11 +228,11 @@ They are all odd and prime number
 Come up with three more examples that fit this pattern.
 
 4 = 1 + 3
-26 = 21 + 5 = 19 + 7 =  13 + 13 
+6 = 3 + 3
 
 Do you think the pattern always holds?
 
-yes i guess this pattern old true for x >= 2
+yes i guess this pattern old true for x >= 4
 
 What is your conjecture? (We will revisit this later.)
 
