@@ -1,0 +1,186 @@
+# Counting and proof
+
+## Exercises
+
+### 1
+
+At WEBS, America’s Yarn Store, there are two aisle displays of sale yarns,
+six aisle displays of closeout yarns in the back warehouse, one aisle display
+of Grandpa’s Garage Sale yarns in the back warehouse, and one display
+shelving unit of über-clearance $2/ball yarns in the retail area. To how many
+display areas can you go in WEBS to buy yarn that is not full price?
+
+The answer is 10 because there is 10 aisle with yarns not full price.
+
+### 2
+A group of friends goes out for single-scoop ice-cream cones. There are
+sugar cones, cake cones, and waffle cones. But there are only five flavors
+of ice cream left (peppermint, hoarhound, chocolate malt, gingerbread, and
+squirrel). How many cone/ice cream combinations can be ordered?
+
+3 kind of cones * 5 flavors
+
+The answer is 15
+
+### 3
+
+At this ice-cream store, ice-cream scoops are stored right in the ice-cream
+containers between uses. At least how many ice-cream scoops must be in
+use if two of them have to be stored in the same flavor ice-cream container?
+
+6 scoops must be in use if there is 1 container by flavor 
+ 
+### 4
+
+A server at the Luminous Nose restaurant goes to this same ice-cream store
+but decides to get a triple-decker cone. The stacking of scoops on the cone is
+important: a cone with peppermint atop two scoops of squirrel tastes differ-
+ent than a cone with two scoops of squirrel atop a scoop of peppermint, so an
+order of peppermint-squirrel-squirrel is different from an order of squirrel-
+squirrel-peppermint. How many possible triple-decker ice-cream orders are
+there?
+
+
+5^3 which is 125 possibility.
+
+### 5
+
+Some people heading to a party stop by the ice-cream store to buy quarts of
+ice cream. How many orders of three quarts could they make?
+
+35  because 10 combinations for 3 distinct flavours + 5 combinations for the full tree same flavours each + 20 when there is 2 with each flavors. 
+
+What if the three flavors have to be different? 
+
+There is 10 combinations possible
+
+What if no one will agree to order squirrel ice cream?
+
+It will be 20 without squirrel same logic than for the first question
+
+### 6
+
+Four teams are attending a local Ultimate Frisbee meet. If each team plays
+each other team exactly once, how many games are played?
+
+team 1 played team 2
+team 1 played team 3
+team 1 played team 4
+team 2 played team 3
+team 2 played team 4
+team 3 played team 4
+
+There are 6 games played.
+
+### 7
+
+Some of the Ultimate Frisbee players decide to form temporary teams in
+an arbitrary way. They put royal blue and lime green armbands into a bag,
+and each player closes hir eyes and grabs an armband to see which tempo-
+rary team ze’ll be on. How many armbands need to be grabbed in order
+to ensure that one of the teams has at least two players? 
+
+At least 3 
+
+How many arm-bands need to be grabbed in order to assure that one of the teams has at least
+seven players?
+
+At least 13 
+
+### 8
+
+Some Ultimate Frisbee meet attendees saunter over to the Healthy Snack
+Box Machine, where they each choose one of five kinds of fruit, one of
+three herbal teas, and one of six flavors of wrap sandwich to get packed in
+a box. How many possible snack boxes are there?
+
+5 * 3 * 6 = 90
+
+
+### 9
+
+Let’s generalize Problem 6 to a regional Ultimate Frisbee tournament where
+there are n teams attending. Teams are assigned numbers (1 through n) when
+they register. As before, each team will play each other exactly once
+
+How many games does Team 1 play?
+
+Team 1 plays n - 1 games.
+
+How many games does Team 2 play? Wait, that counts the Team 1
+versus Team 2 game twice. How many not-yet-counted games does
+Team 2 play?
+
+Team 2 plays n - 2 games.
+
+Keep going. How many “new” (uncounted) games does Team i play?
+
+Team i plays n - i games.
+
+How many games are played in total?
+
+It is a suite like n - 1 + n - 2 + n - i ...
+
+the formula is n (n - 1) / 2
+
+### 10
+
+Let’s also generalize Problems 2 and 3 to a more reasonable ice-cream store.
+There are still three kinds of cones (the usual), but now there are k flavors
+of ice cream.
+
+(a) How many different single-scoop ice-cream cones can be ordered?
+
+3 * k flavours 
+
+(b) How many ice-cream scoops must be in use if two of them have to be stored in the same flavor ice-cream container?
+
+k + 1 
+
+### 11
+
+Terminology alert: We write finite sets as lists of their members (also called
+elements). For example, {2, 3, 5, 7} is an excellent set. So is {1, 4}. These
+sets are disjoint because they have no members in common. On the other
+hand, {1, 2} is not disjoint from either {2, 3, 5, 7} or {1, 4}. The union of
+two sets A, B (or many sets A, B, . . . , N) is a set containing all members of
+A and of B (and of C, . . . , N). The union of the three sets listed so far is
+{1, 2, 3, 4, 5, 7}.
+
+(a) How many elements are in the union of two disjoint finite sets?
+
+Elements of set 1 + elements of set 2 because they are disjoints so they have no elements in common.
+
+(b) How many members does a union of finitely many disjoint finite sets
+have?
+
+The sum of the elements of all the disjoint finite sets.
+
+(c) Are the previous two questions related to any of the previous prob-
+lems?
+
+Yes they are related to most of the problem asked previously
+
+Yes the problem 6 for example.
+
+(d) How many members does the union of n disjoint sets, each with m
+elements, have?
+
+The union of n disjoint sets, with each m elements has n * m members
+
+### 12
+
+Another terminology alert: We call the notation (a, b) an ordered pair and
+(a, b, c) an ordered triple (and yes, we call (a, b, . . . , n) an ordered n-tuple).
+Generally, the first member of the pair (or triple, etc.) is from some set A,
+and the second member of the pair (or triple, etc.) is from some set B, etc.
+If A has m elements and B has k elements, how many ordered pairs can be
+formed from A and B? 
+
+We can form  m * k ordered pair.
+
+Is this related to any of the previous problems?
+
+Yes the problem 10.A for example.
+
+
