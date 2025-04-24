@@ -232,11 +232,103 @@ Come up with three more examples that fit this pattern.
 
 Do you think the pattern always holds?
 
-yes i guess this pattern old true for x >= 4
+Yes i guess this pattern old true for x >= 4
 
 What is your conjecture? (We will revisit this later.)
 
 My conjecture is that you can always decompose an even number >= 2 with 2 prime numbers numbers
+
+## direct Proofs
+
+Prove that if n is even, then n^2 is even.
+
+Lets us show that for any even number that we will represent by n, n^2 is even.
+Well, the definition of an even number says that it is a multiple of 2.
+So that means that n = 2m for some integer m. 
+We can substitute this into the expression we want to know about n ^ 2
+to see that n ^ 2 = (2 m) ^2 = 4 (m ^ 2) = 2 (2 m ^2)
+Since 2 (2 m ^2) is divisible by 2 it proves that n ^ 2 will always be even.
+Q.E.D
+
+-----
+
+Prove that if n is odd, then n2 + 5n− 3 is also odd.
+
+Putting it all together:
+n2 + 5n − 3 = (4k2+4k+1) +(10k+5)−3
+n^2 + 5n - 3 = (4k^2 + 4k + 1) + (10k + 5) - 3
+n2+5n−3=(4k2+4k+1)+(10k+5)−3
+Now combine like terms:
+=4k 2+ 14k+3
+= 4k^2 + 14k + 3
+=4k2+14k+3
+We can factor out a 2:
+=2(2k2+7k+1)+1
+= 2(2k^2 + 7k + 1) + 1
+=2(2k2+7k+1)+1
+This expression is clearly of the form
+2m +1
+2m + 1
+2m+1, where
+m =2k 2 + 7 k + 1
+m = 2k^2 + 7k + 1
+m=2k2+7k+1 is an integer. Therefore, the result is an odd number.
+Q.E.D.
+
+-----
+Challenge: Invent your own false proposition and accompany it with a counterex-
+ample
+
+Every prime number is odd.
+
+false there is a counter exemple which is 2 who is also a prime number because only divisible by itself and one.
+
+## Pigeons and Correspondences
+
+### 1
+
+List all the subsets of {egg, duck, goose}. How many are there?
+there are 2^3 subsets which is 8 subsets
+{}
+{egg}
+{duck}
+{goose}
+{egg,duck}
+{egg,goose}
+{duck,goose}
+{egg,duck,goose}
+How many of them
+contain egg? … duck? … goose?
+
+Half of the subsets contains each of them.
+4 contains egg, 4 contains duck and 4 contains goose
+
+### 2
+
+Consider a standard deck of cards with suits hearts (♡), spades (♠), clubs (♣), and
+diamonds (♢), and values 2–10, jack, queen, king, and ace. 
+
+How many cards must you deal out before being assured that two will have the same suit? 
+
+At least 5 because there is 4 suits and if we follow the Pigeons hole princple there will be 4 hole and at the fifth card all holes will be already filled.
+
+How many must you deal out before being assured that two will have the same value?
+
+At least 14 because there is 8 numbers + 1 jack + 1 queen + 1 king + 1 ace which is 13.
+
+and if you deal 13 cards of the same colors you will be forced to deal out another card of the another color at the 14th turned thus 2 card will have the same value.
+
+### 3
+
+
+Challenge: Invent your own counting question that can be answered using the pigeonhole principle.
+
+You've got 4 teams of basketball, one team can play one other team once. 
+
+How many games has to be played before being assured that a team has played two games.
+
+The answer is 3 
+
 
 
 
