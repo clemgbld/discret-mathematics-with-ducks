@@ -329,6 +329,325 @@ How many games has to be played before being assured that a team has played two 
 
 The answer is 3 
 
+## More problems
+
+### 1
+
+A Timbuk2 custom messenger bag
+comes in four sizes, has 46 options
+for the left-panel and center-panel and
+right-panel fabrics, 18 different binding
+options, 27 logo colors, 11 liner colors,
+three options for pocket style, two hand-
+ednesses, and 47 different options for
+the strap pad. (Really, not kidding—
+these numbers came from the Timbuk2
+website in October 2014.) How many
+different custom messenger bags could
+one order?
+
+By the product principle 4 * 46 * 18 * 27 * 11 * 3 * 2 * 47 = 277393248 
+
+### 2
+
+Prove that the product of any three odd
+numbers is also odd
+
+a * b * c is odd when a, b , c or odd
+
+We know that a number m is odd if m =
+2k + 1 for some integer k.
+
+a * b * c = (2k + 1) * (2j + 1) * (2l + 1) 
+
+(2k+1)(2j+1)= 4kj+2k+2j+1
+
+(2k+1)(2j+1)=2(2kj+k+j)+1
+
+(2(2kj+k+j)+1)(2l+1)
+
+=2(2kj+k+j)(2l)+2(2kj+k+j)(1)+1(2l)+1(1)
+
+=4l(2kj+k+j)+2(2kj+k+j)+2l+1
+
+=2(2l(2kj+k+j)+(2kj+k+j)+l)+1
+
+You have the product expressed as  2(integer)+1, which is exactly the definition of an odd number!
+
+### 3
+
+Takeo, a paper store in Tokyo, has walls
+lined with coded drawers. Each code
+designates a type of paper. One such
+drawer is 2Q08. If the first entry has
+to be 1, 2, or 3 (there are only three
+walls with drawers), the second is a let-
+ter, and the last two are numbers, then
+how many drawers could Takeo have?
+
+By the product principle it is 3 (number of walls) * 26 (numbers of letters in the alphabets) * 10 ^ 2 (2 times digits 0-9) = 7800
+
+a * b * c is odd when a, b , c or odd
+
+We know that a number m is odd if m =
+2k + 1 for some integer k.
+
+a * b * c = (2k + 1) * (2j + 1) * (2l + 1) 
+
+(2k+1)(2j+1)= 4kj+2k+2j+1
+
+(2k+1)(2j+1)=2(2kj+k+j)+1
+
+(2(2kj+k+j)+1)(2l+1)
+
+=2(2kj+k+j)(2l)+2(2kj+k+j)(1)+1(2l)+1(1)
+
+=4l(2kj+k+j)+2(2kj+k+j)+2l+1
+
+=2(2l(2kj+k+j)+(2kj+k+j)+l)+1
+
+You have the product expressed as  2(integer)+1, which is exactly the definition of an odd number!
+
+Q.D.E
+
+
+### 4
+
+You want to buy an electric car. The
+Chevy Volt comes in eight colors (red,
+brown, grey, pale blue, two blacks, two
+whites), offers three kinds of wheels,
+and has five kinds of interiors (two
+cloth, three leather). The Tesla comes
+in nine colors (black, two whites, two
+greys, brown, red, green, blue), and
+gives a choice of three roof styles (one
+is glass), four wheel styles, four seat
+colors, four dashboard prints, and three
+door-trim colors. There are three ver-
+sions of the Nissan Leaf (S, SV, SL),
+each of which comes in seven col-
+ors (two whites, two greys, red, blue,
+black). How many different choices of
+car do you have?
+
+(8 (kinds colors) * 3 (kinds of wheels) * 5 (kinds of interiors)) ( Chevy Volt) + 
+( 9 (kinds of colors) * 3 (kinds of roof) * 4 (kinds of wheel) * 4 (kinds of seat colors) * 4 (kinds of dashboard prints) * 3 (door-trim colors)) (Tesla) +
+( 3 (kinds of version) * 7 (kinds of colors)) (Nissan Leaf) = 5325
+
+### 5
+Prove, or find a counterexample: the
+sum of two consecutive perfect cubes is
+odd.
+
+We already proved that the product of 3 odd number is odd in the earlier exercise.
+
+We know that a number m is odd if m =
+2k + 1 for some integer k.
+
+a * b * c = (2k + 1) * (2j + 1) * (2l + 1) 
+
+(2k+1)(2j+1)= 4kj+2k+2j+1
+
+(2k+1)(2j+1)=2(2kj+k+j)+1
+
+(2(2kj+k+j)+1)(2l+1)
+
+=2(2kj+k+j)(2l)+2(2kj+k+j)(1)+1(2l)+1(1)
+
+=4l(2kj+k+j)+2(2kj+k+j)+2l+1
+
+=2(2l(2kj+k+j)+(2kj+k+j)+l)+1
+
+You have the product expressed as  2(integer)+1, which is exactly the definition of an odd number!
+
+d * d * d where d is even.
+
+ = 2k * 2k * 2k 
+ 2k 2k = 2(2kk +k+k)
+
+2 times any integer is will be even thus when we add an even + an odd number it will be an odd number thus the conjecture is true.
+
+Q.D.E
+
+### 6
+
+How many four-digit phone extensions
+have no 0s and begin with 3
+
+9 ^ 3 = 729
+
+Because the first digit will always be 3 and the 3 others digits can be between 1-9 which means 9 digits and by the product principle that will be 1 * 9 * 9 * 9.
+
+### 7
+
+In 2016, there were 3,945,875 live
+births in the US. (Source: http://www.
+cdc.gov/nchs/fastats/births.htm.) Did
+there have to be two of these births
+within the same second?
+
+We can use the pigeonhole princple to verify that.
+
+There is 366 days in 2016 because it was a leap year there is 24 hours in a day and 60 minutes in 1 hours and 60 seconds in 1minutes.
+
+So we must converts 366 days in seconds.
+
+60 * 60 = 3600 which is the number of seconds in 1 hours.
+
+3600 * 24 = 86400 which is the number of seconds in a day.
+
+86400 * 366 = 31622400
+
+With that information we can confirm that one two of this births didn't have to happen within the same second because  31622400 seconds is superior to 3,945,875 live.
+
+### 8
+
+How many length-8 binary strings have
+no 0s in the fourth place?
+
+2 ^ 7 = 128
+
+### 9
+
+You receive a choose-your-own-
+adventure certificate for a jewelry store!
+The deal is that you get to pick one of
+eight precious gems, and either a ring
+or a bracelet to put it in. There are
+three possible ring styles and six pos-
+sible bracelet styles.
+
+(a) How many possible prizes are there?
+
+By the product principle and the sum principle
+
+ (8 *  3) + (8 * 6) = 72 
+
+(b) How did you answer the previous
+question? If you used the product
+principle first, re-answer the ques-
+tion using the sum principle first.
+(And if you used the sum principle
+first, re-answer the problem using
+the product principle first.)
+
+
+
+With the product principle first with the sum princple first it would be 
+
+(3 + 6) * 8 = 72.
+
+(c) On closer look, you realize that nei-
+ther the ruby nor the emerald would
+look good on the bracelet. How
+many prizes are still possible?
+
+(8 * 3) + (6 * 6) = 24 +  36 = 60
+
+60 prizes are still possible.
+
+### 10
+
+ I have a lot of stuff in my stuff-holder:
+six ball-point pens, a silver star wand,
+three teal signature pens, a bronze-
+yellow colored pencil, five liquid ink
+pens, three mechanical pencils, a high-
+lighter, six permanent markers, seven
+gel pens, a Hello Kitty lollipop, two
+markers, three wooden pencils, a 3-
+inch-long pen, a calligraphy marker, a
+pen shaped like a cat, and a pair of left-
+handed office scissors.
+How many writing utensils do I have in
+the stuff-holder?
+
+By the sum principle. 
+
+6 (ball-point pens) + 3 (teal signature pens) + 1 (bronze yellow colored pencil) + 5 (five liquid ink pens) + 3 (mechanical pencils) + 6 (permanent marker) + 7 (gel pens) + 2 (markers)
+
++ 3 (wooden pencils) + 1 (calligraphy marker) + 1 (pen shaped like a cat) + 3-
+inch-long pen.
+
+
+### 1
+
+Bruno Burger’s specialty is, you
+guessed it, burgers. They offer four
+different burger patties (chicken, fish,
+soy, and grape-nut) with your choice
+of seven vegetables (onions, lettuce,
+tomato, kale, red onions, zucchini, and
+eggplant). How many patty-with-a-
+vegetable burgers can be ordered?
+
+By the product principle it is 4 (burger patties) * 7 (vegetables) which is 28.
+
+### 2
+
+The Supreme Bruno is any patty-with-
+a-vegetable burger plus a condiment
+(choose from Worcestershire sauce,
+wasabi sauce, or mustard); you can
+also have cheese, or not. How many
+Supreme Brunos could be ordered?
+
+By the product principle  4 (burger patties) * 7 (vegetables) * 3 (sauces) * 2 (cheese or not) which is 168 
+
+### 3
+
+Prove that the sum of two even numbers
+n1 and n2 is also even.
+
+We know that a number evenly divisible
+by 2. Equivalently, a number m is even
+if m = 2k for some integer k.
+
+n1 + n2 = 2k + 2j
+
+= 2 (k + j)
+
+Which has the form m = 2k for some integer k.
+
+Q.D.E
+
+### 4
+
+Prove that the sum of two odd numbers
+n1 and n2 is even.
+
+We know that A number m is odd if m =
+2k + 1 for some integer k.
+
+We also know that a number evenly divisible
+by 2. Equivalently, a number m is even
+if m = 2k for some integer k.
+
+n1 + n 2 = (2k + 1) + (2j + 1)
+
+= 2(k + j + 1) 
+
+Which is of the form m = 2k for some integer k.
+
+Q.D.E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
