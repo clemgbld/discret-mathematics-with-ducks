@@ -408,7 +408,7 @@ a * b * c = (2k + 1) * (2j + 1) * (2l + 1)
 
 You have the product expressed as  2(integer)+1, which is exactly the definition of an odd number!
 
-Q.D.E
+Q.E.D
 
 
 ### 4
@@ -468,7 +468,7 @@ d * d * d where d is even.
 
 2 times any integer is will be even thus when we add an even + an odd number it will be an odd number thus the conjecture is true.
 
-Q.D.E
+Q.E.D
 
 ### 6
 
@@ -610,7 +610,7 @@ n1 + n2 = 2k + 2j
 
 Which has the form m = 2k for some integer k.
 
-Q.D.E
+Q.E.D
 
 ### 4
 
@@ -630,25 +630,103 @@ n1 + n 2 = (2k + 1) + (2j + 1)
 
 Which is of the form m = 2k for some integer k.
 
-Q.D.E
+Q.E.D
 
+### 5
 
+You are assigned to communicate with
+a truly ancient computer. You must
+do this by telephone by shouting binary
+digits over the line, in clumps of eight
+digits. How many different eight-digit
+binary strings are there to shout?
 
+There is 2 ^ 8 = 256 binary combinations of binary digits possible.
 
+### 6
 
+A local creperie offers sweet crepes and
+savory crepes. A sweet crepe could
+have any fruit (banana, strawberry,
+mango, apple, lemon) and any syrup
+(nutella, chocolate, caramel, honey).
+A savory crepe could have any veg-
+etable (broccoli, mushroom, spinach)
+and any protein (turkey, cheese, prosci-
+utto). How many different crepes are on
+the menu?
 
+(5 (fruits) * 4 (syrup)) (sweet creeps) + (3 (vegetables) * 3 (protein)) (savory crepes) = 20 + 9 = 29
 
+### 7
 
+Prove that every binary number n that
+ends in 0 is even.
 
+We know that a number evenly divisible
+by 2. Equivalently, a number m is even
+if m = 2k for some integer k.
 
+in binary only the last binary number is odd which is one and adding multiple even number together will always be even we can prove the last affirmation with that forula.
 
+n1 + n2 ... + n = 2k + 2j + ...2kn
 
+= 2 (k + j ... + n)
 
+thus a binary number thata ends  by zero will always be 0.
 
+Q.E.D
 
+### 8
 
+Prove that every odd number n ends in
+1 in its binary representation.
 
+We know that A number m is odd if m =
+2k + 1 for some integer k.
 
+A binary number is a number represented in base 2 and we add the base together of the base that has a 1.
 
+Since every base is divisible by 2 expect the end of a binary number we can represent an odd binary number with that formula. 
 
+= 2 (k + j ... + n) + 1
+
+Which is of form 2k + 1 thus an odd decimal number will always ends with 1 in its binary representation.
+
+Q.E.D
+
+### 9
+
+Scary Clown offers a Sad Meal contain-
+ing a sandwich, a salad, a dessert, and
+a drink. (They are not mixed together
+in the box.) There are 11 types of sand-
+wiches, 3 types of salads, and 5 differ-
+ent kinds of desserts. A person with low
+standards for food could eat a different
+Sad Meal every day for three years. So
+how many drinks are possible choices
+for a Sad Meal?
+
+3 years = 3 * 365 = 1095
+                
+11 * 3 * 5 * x = 1095
+
+11 * 3 * x = 219
+
+11 * x = 73
+
+x = 6.6
+
+Around 7 drinks are possible.
+
+### 10
+
+Prove, or find a counterexample: the
+difference of two consecutive perfect
+squares is odd.
+
+n1 is even and n2 is odd.
+
+n1 ^ 3 - n2 ^ 3 = 2k ^ 3 - (2j + 1) ^3
 
