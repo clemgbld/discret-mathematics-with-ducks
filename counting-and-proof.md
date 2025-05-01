@@ -726,7 +726,193 @@ Prove, or find a counterexample: the
 difference of two consecutive perfect
 squares is odd.
 
+We know that a number evenly divisible
+by 2. Equivalently, a number m is even
+if m = 2k for some integer k.
+
+We know that A number m is odd if m =
+2k + 1 for some integer k.
+
+we known that n1 if n1 is odd n2 is odd and the opposite is also true.
+
 n1 is even and n2 is odd.
 
-n1 ^ 3 - n2 ^ 3 = 2k ^ 3 - (2j + 1) ^3
+n1 ^ 2 - n2 ^ 2 = (2k) ^ 2 - (2j + 1) ^2
 
+Which is of form 2k + 1 which proves that the difference between two consecutive perfect squares is odd. 
+
+Q.E.D
+
+### 11
+
+Every US coin is stamped with the year
+in which it was minted. 
+How many coins do you need to have in your pocket
+to be assured that at least two of them
+have the same last digit? 
+
+If we use the pigeonhole principle.
+
+The answer is 11 because there are 10 possible last digit from 0 to 9
+
+How many do you need to be assured thhat at least two have the same first digit?
+
+If we use the pigeonhole principle.
+The answer is 3 because there are 2 possible first digit from 1 and 2.
+
+### 12
+
+Prove, or find a counterexample: the
+sum of two perfect squares is even.
+
+We can find a counter example with  (3 * 3) + (2 * 2) = 13.
+
+### 13
+
+In order to keep track of circulation
+numbers, the library asks you to note
+on a form, when you leave the library,
+which combinations of 15 subject ar-
+eas and of 8 types of material (books,
+current journals, databases, bound jour-
+nals, videotapes, microfilm, microfiche,
+DVDs) you used. How many possible ways are there to fill in a line on the
+form?
+
+15 (subject areas ) * 8 (types of material) = 120.
+
+### 14
+
+(Still about the library) Of course, not
+every combination is realistically possi-
+ble, as the library does not hold mate-
+rials in every type for every discipline.
+If the library has six types of material
+for each discipline, how many possible
+ways are there to fill in a line on the
+form?
+
+15 (subject areas ) * 6 (types of material) = 90
+
+### 15
+
+(And more about the library) More re-
+alistically, some disciplines use mate-
+rials in more differing forms than oth-
+ers. Let’s look at just a few disciplines.
+The Dance holdings are in videotape,
+DVD, current journals, bound journals,
+and books. The Math holdings are
+in books, current journals, databases,
+bound journals, videotapes, and micro-
+film. The Computer Science holdings
+are in books, databases, and DVDs. An-
+cient Studies holdings are just bound
+journals, videotapes, microfilm, and mi-
+crofiche. How many possible ways are
+there to fill in a line on the form for these
+four disciplines?
+
+Using the sum principle 
+
+5 for the Dance holdings
+
+6 for the Maths holdings
+
+3 for the Computer Science holdings
+
+4 for the Studies Holdings
+
+5 + 6 + 3 + 4 = 18
+
+### 16
+
+Prove, or find a counterexample: the
+sum of two primes is even.
+
+the counterexample is that 2 + 3 that are both prime numbers is equal to 5 which is odd.
+
+### 17
+
+At Chicago O’Hare International Air-
+port, there are an average of 1185 di-
+rect flights per day (source: http://
+www.flychicago.com/ohare/myflight/
+direct/pages/default.aspx). 
+Prove that at least two of these flights must take
+off within 90 seconds of each other.
+
+There is 3600 seconds in 1hour and there 24 hours hours in a day so there is 86400 seconds in a day
+
+We just need to divide 86400 by 90 and we can find that that only 960 flights can take off within 90 seconds of each other.
+
+Since 1185 is above 960 that proves that at least two of these flights must take off within 90 seconds of each other. 
+
+### 18
+
+Prove that if n is even, then (−1) n = 1.
+
+Multiplying two negative number will always yield a positive number and Multiplying one negative number with a positive number will always yield a negative number.
+
+when n is even the last multiplication will always be -1 * -1 = 1.
+
+when n is odd the last multiplication will always be -1 * 1 = -1.
+
+Q.E.D
+
+### 19
+
+How many different seven-digit phone
+numbers are there?
+
+By the product principle if each digit can be from 0-9 then it will be 10^7.
+
+### 20
+
+How many different seven-digit phone
+numbers begin with 231- and contain
+no 9s?
+
+9 ^ 4 because the first 3 digits have to be 231 which does 1 * 1 * 1 and the other 4 remaining digits can't have a 9 so 10 - 1 = 9 which gives 1 ^3 * 9^4 = 9^4 = 6561
+
+### 21
+
+Is the product of two odd numbers even
+or odd? Prove it.
+
+We know that a number m is odd if m =
+2k + 1 for some integer k.
+
+n1 and n2 are two odd numbers.
+
+n1 * n2 = (2k + 1) * (2j + 1)
+
+= 2k+1)(2j+1)=4kj+2k+2j+1
+
+=2(2kj+k+j) + 1
+
+Which is of form 2k + 1 for some integer k which prove that the product two odd number will be odd.
+
+### 22
+
+Let us try to strengthen the result in Ex-
+ample 1.5.5.
+(a) Does a list of distinct five-digit num-
+bers of length 20 have the property
+that there must be two subsets of the
+list with the same sum?
+
+the sum of all 20 numbers have to be less than 2 000 000.
+
+if we calculate all the subset
+
+2 ^ 20 - 1 = 1 048 575 
+
+No because there are less subsets than sum.
+
+(b) What is the smallest list of distinct
+five-digit numbers such that there
+must be two subsets of the list with
+the same sum?
+
+2^n > n * 99999 + 1 is 22
